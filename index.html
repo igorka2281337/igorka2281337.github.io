@@ -1,1239 +1,779 @@
-<!doctype html>
-<html>
+<html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Лучший сайт по открытию кейсов. Заходи и открывай кейсы с деньгами! Увеличенный шанс!">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<title>Кейсы с Биткоинами, кейсы с деньгами Bitcash.</title>
-
-<link rel="shortcut icon" href="style/images/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="style/css/style.css" type="text/css">
-<link rel="stylesheet" href="style/css/m_style.css" type="text/css">
-<link rel="stylesheet" href="style/rawline/css/rawline.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-
-<script type="text/javascript" src="http://vk.com/js/api/openapi.js?142"></script>
-
+<meta name="yandex-verification" content="7cbf19d7a1a0a073" />
+<meta charset="UTF-8">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<title>OpCash - Только победа ! Кейсы с деньгами. Открытие кейсов </title>
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="f-GCulIbhJZXEjf_ZEi4ggYgcz59KKfnqqev0AJxV0D-OaYtN9IUQ47_RuGjygkDXIHY54f-UaX9bMoBsWwylw==">
+<meta name="description" content="OpCash - Только победа! Кейсы с деньгами. Открытие кейсов бесплатно. Кейсы с деньгами. Опкэш, Эггер, VsCash, денежные кейсы.">
+<meta name="keywords" content="OpCash,открытие кейсов,призовые кейсы,дропы,кейсы
+На: OpCash, открытие кейсов, призовые кейсы, дропы, кейсы, кейсы с деньгами, рулетка, деньги вывод, открытие кейсов, lucky cash, cash, бесплатные кейсы, денежные кейсы, кейсы с реальными деньгами, денежные кейсы, кейсы с деньгами рулетка опкэш, оп кэш, игра онлайн.">
+<link rel="stylesheet" href="css/site.css">
+<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js/core.min.js"></script>
+<script type="text/javascript" src="js/socket.io-1.4.5.js"></script>
+<script type="text/javascript" src="js/metrics.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="yandex-verification" content="eaf38a04c83c6e9f">
+<meta name="google-site-verification" content="dUtJD_lw-U_C8_2A2QEf8FOc8QD26r72EczSlN6p7Tc" />
 </head>
 <body>
-
-
-<audio id='sounds_of_god' preload='auto'>
-<source src='http://bitcash24.org/sounds/mousehover.wav' type='audio/wav'>
-</audio>
-
-<audio id='sounds_of_god' preload='auto'>
-<source src='http://bitcash24.org/sounds/win.wav' type='audio/wav'>
-</audio>
-
-<audio id='sounds_of_god' preload='auto'>
-<source src='http://bitcash24.org/sounds/proc.ogg' type='audio/ogg'>
-</audio>
-
-<div id="wrapper">
-
-<div id="first_bg">
-
-
-<script type='text/javascript'>
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter44175294 = new Ya.Metrika({
-                    id:44175294,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName('script')[0],
-            s = d.createElement('script'),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'https://mc.yandex.ru/metrika/watch.js';
-
-        if (w.opera == '[object Opera]') {
-            d.addEventListener('DOMContentLoaded', f, false);
-        } else { f(); }
-    })(document, window, 'yandex_metrika_callbacks');
-</script>
-<noscript><div><img src='https://mc.yandex.ru/watch/44175294' style='position:absolute; left:-9999px;' alt='' /></div></noscript>
-
-<div id='nav'>
-<table width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td width='285'>
-<a href='http://bitcash24.org'><img src='style/images/logo.png' width='190' alt=''/></a>
-</td>
-<td id='nav2' width='100%'>
-<div id='sub_nav_fix_align'>
-<div>
-<a class='jelly_bord soundplay' href='http://bitcash24.org'><i class='fa fa-home' aria-hidden='true'></i> Кейсы</a>
-<a class='jelly_bord soundplay' href='faq.html'><i class='fa fa-question' aria-hidden='true'></i> Faq</a>
-<a class='jelly_bord soundplay' href='garanties.html'><i class='fa fa-certificate' aria-hidden='true'></i> Гарантии</a>
-<a class='jelly_bord soundplay' href='bonus.html'><i class='fa fa-gift' aria-hidden='true'></i> Бонусы</a>
-<a class='soundplay appendd' id='self_vk_auth' href='http://oauth.vk.com/authorize?client_id=6430303&redirect_uri=http://bitcash24.org/callback&scope=wall&response_type=code&v=5.73'>Войти через <img src='style/images/vk_logo.png' width='24' alt=''/></a>
+<!--[if lt IE 6]><div class="ie6"><![endif]-->
+<!--[if IE 7]><div class="ie7"><![endif]-->
+<!--[if IE 8]><div class="ie8"><![endif]-->
+<!--[if gt IE 8]><div class="ie9"><![endif]-->
+<div class="wrapper">
+<header class="header">
+<div class="inner">
+<div class="logo"><a href="index.html"><img src="img/logo.png" alt="FlipCoin" class="l"></a></div>
+<div class="u-menu">
+<div class="so-auth" id="uLogin">
+<a href="account/loginexternal/index.html@service=vkontakte.html" class="btn sexy gradient-blue icon-r flaticon-vk auth-btn"><b>Войти через</b> <span class="flaticon-soc-vk"></span></a>
 </div>
 </div>
-</td>
-</tr>
-</table>
-</div>
-
-<div id='nav_m'>
-<table width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td width='40'><div id='mobile_nav_button' class='soundplay' onclick='show_swipe()'><i class='fa fa-bars' aria-hidden='true'></i></div></td>
-<td><center><a id='mobile_logo' href='http://bitcash24.org'><img src='style/images/logo.png' width='120' alt=''/></a></center></td>
-<td width='40'>
-<a href='http://oauth.vk.com/authorize?client_id=6430303&redirect_uri=http://bitcash24.org/callback&scope=wall&response_type=code&v=5.73'><div id='mobile_vk_button' class='soundplay'><i class='fa fa-vk' aria-hidden='true'></i></div></a>
-
-</td>
-</tr>
-</table>
-</div>
-
-<div id='swipe_nav'>
-<span id='mobile_colse_nav_button' class='soundplay' onclick='close_swipe()'><i class='fa fa-times' aria-hidden='true'></i></span>
-<div id='mobile_nav_contacts_up'>
-
-</div>
+<nav class="nav">
+<div class="nav-button"><span class="flaticon-menu"></span></div>
 <ul>
-<li><a class='soundplay' href='http://bitcash24.org'><span id='mobile_swipe_nav_ico_margin'><i class='fa fa-home' aria-hidden='true'></i></span> Кейсы</a></li>
-<li><a class='soundplay' href='faq.html'><span id='mobile_swipe_nav_ico_margin'><i class='fa fa-question' aria-hidden='true'></i></span> Faq</a></li>
-<li><a class='soundplay' href='garanties.html'><span id='mobile_swipe_nav_ico_margin'><i class='fa fa-certificate' aria-hidden='true'></i></span> Гарантии</a></li>
-<li><a class='soundplay' href='bonus.html'><span id='mobile_swipe_nav_ico_margin'><i class='fa fa-gift' aria-hidden='true'></i></span> Бонусы</a></li>
+<li><a href="index.html" class="eas ">Кейсы</a></li>
+<li><a href="faq/index.html" class="eas ">FAQ</a></li>
+<li><a href="guarantees/index.html" class="eas ">Гарантии</a></li>
+<li><a href="reviews/index.html" class="eas ">Отзывы</a></li>
 </ul>
-<div id='mobile_nav_contacts'>
-Чтобы войти, нажмите на значок <i class='fa fa-vk' aria-hidden='true'></i> в верхнем правом углу экрана.
+</nav>
+<div class="cls"></div>
 </div>
-</div>
-
-<script type='text/javascript'>
-function show_swipe() {
-	$('#swipe_nav').animate({'left': '+=80%'}, 200);
-	$('#tv_overlay3').fadeIn(200);
-}
-
-function close_swipe() {
-	$('#swipe_nav').animate({'left': '-=80%'}, 200);
-	$('#tv_overlay3').fadeOut(200);
-}
-</script>
-
-
-<div id='live_line_bg'>
-<div id='live_line'>
-<table width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td id='live_lent_open'>
-<div id='new_stat_btc'>
-
-	<div id='live_lent_stat_div1'><center>Онлайн<br><font id='number_stat_line'>72</font></center></div>
-	<div id='v_line'></div>
-    <div id='live_lent_stat_div2'><center>Пользователей<br><font id='number_stat_line'>81,383</font></center></div>
-	<div id='v_line'></div>
-    <div id='live_lent_stat_div2'><center>Открыто кейсов<br><font id='number_stat_line'>1,218,142</font></center></div>
-
-</div>
-</td>
-<td id='live_lent_lent'>
-<div id='sub_lent_lent'>
-
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=231146065'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c633526/v633526065/34f30/fWilDIy8e0c.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=377529650'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c841133/v841133467/82711/R9GMBgLHSqw.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-80.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-50.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-20.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-30.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-20.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-20.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-50.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=98717575'><img id='lent_coin_coin' src='style/coins/coin-30.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c639420/v639420109/49aee/gTecVLuqjZY.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-30.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-50.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=336682854'><img id='lent_coin_coin' src='style/coins/coin-30.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c840336/v840336783/5ce72/gN-sPT6z2cc.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=377529650'><img id='lent_coin_coin' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c841133/v841133467/82711/R9GMBgLHSqw.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin' src='style/coins/coin-20.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=231146065'><img id='lent_coin_coin' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c633526/v633526065/34f30/fWilDIy8e0c.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg'>
-		<center>
-		<a href='http://bitcash24.org/user?user=98717575'><img id='lent_coin_coin' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava' src='https://pp.userapi.com/c639420/v639420109/49aee/gTecVLuqjZY.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-
-<div id='hide_m_lent'>
-<div id='live_line_m'>
-	<center>
-	<div id='live_lent_stat_m'>
-	<div><center>Онлайн<br><font id='number_stat_line'>72</font></center></div>
-    <div id='live_lent_stat_div2_m'><center>Пользователей<br><font id='number_stat_line'>81,383</font></center></div>
-    <div id='live_lent_stat_div2_m'><center>Открыто кейсов<br><font id='number_stat_line'>1,218,142</font></center></div>
-	</div>
-	</center>
-</div>
-<div id='live_lent_m_h1'><div><i class='fa fa-circle' aria-hidden='true'></i></div>LIVE</div>
-<div id='live_line_drops_m'>
-<div id='live_line_drops_m_sub'>
-
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=231146065'><img id='lent_coin_coin_m' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c633526/v633526065/34f30/fWilDIy8e0c.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=377529650'><img id='lent_coin_coin_m' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c841133/v841133467/82711/R9GMBgLHSqw.jpg' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-15.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-80.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-10.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-40.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=436212128'><img id='lent_coin_coin_m' src='style/coins/coin-50.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c840331/v840331384/2849f/LXMtZxhFwjA.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-20.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
-		<div id='lent_coin_bg_m'>
-		<center>
-		<a href='http://bitcash24.org/user?user=285381819'><img id='lent_coin_coin_m' src='style/coins/coin-30.svg' width='82' alt=''/><img id='lent_coin_ava_m' src='https://pp.userapi.com/c830709/v830709671/913f0/MMKjOJVlbZU.jpg?ava=1' width='78' alt=''/></a>
-		</center>
-		</div>
-	
+</header>
+<div class="sub-header">
+<div class="inner">
+<div class="stat">
+<div class="o o-1">Онлайн <div id="st-online1">3067</div></div>
+<div class="l"></div>
+<div class="o">Пользователей <div id="st-users">278013</div></div>
+<div class="l"></div>
+<div class="o">Открыто кейсов <div id="st-cases">531,285</div></div>
+<div class="cls"></div></div>
+<div class="live">
+<div class="name">Live призы</div>
+<div class="prize" id="live-prize-box">
+<div class="cls"></div>
 </div>
 </div>
 </div>
-
-<div id='line3'>
-<div id='recomendation'>
-
+</div> <div class="filters">
+<div class="inner">
+<div class="right">
+<span class="case-price-x case-price-0 eas active" onclick="setFilters('price', 0, 0, this);">Все кейсы</span>
+<span class="case-price-x case-price-1 eas" onclick="setFilters('price', 10, 100, this);">10-100</span>
+<span class="case-price-x case-price-2 eas" onclick="setFilters('price', 100, 1000, this);">100-1,000</span>
+<span class="case-price-x case-price-3 eas" onclick="setFilters('price', 1000, 10000, this);">1,000-10,000</span>
+<span class="case-price-x case-price-4 eas" onclick="setFilters('price', 10000, 999999, this);">10,000+</span>
 </div>
-<div id='baner1'>
-<p>
-<font id='baner1_font'>Приводи друзей — получай<br>процент с их пополнений</font><br>
-<a href='bonus.html' class='soundplay' id='button1'>Подробнее!</a>
-</p>
-</div>
-<div id='baner2'>
-<p>
-<font id='baner1_font'>Получи бонус <font style='color:#ff3535;'>1000р</font><br>за регистрацию</font><br>
-<a href='thousand.html' class='soundplay' id='button1111'>Подробнее!</a>
-</p>
+<div class="cls"></div>
 </div>
 </div>
-
-<div id='line3_m'>
-<center>
-
-<div id='recomendation2_m' class='pointer_border'>
-Получи бонус <font style='color:#ff3535;'>1000р</font> за<br>регистрацию<br>
-<a href='thousand.html' class='soundplay' id='button1_m'>Подробнее!</a>
-</div>
-
-<div id='recomendation2_m' class='pointer_border2'>
-Приводи друзей — получай<br>процент с их пополнений<br>
-<a href='bonus.html' class='soundplay' id='button1_m'>Подробнее!</a>
-</div>
-
-</center>
-</div>
-
-<div id='cases_cont'>
-
-<div id="line"></div>
-
-
-	
-	<div id='case_cont'>
-	<div id='case_cont_sub'>
-	<span>
-	<div id='case_cont_sub_title'>Бесплатный кейс</div>
-	<div id='case_cont_sub_price'><span>0.0000<i class='fa fa-bitcoin' aria-hidden='true'></i></span></div>
-	</span>
-	<br>
-	<span>
-	<div id='case_cont_sub_order'>Выдано: <b>378,164<i class='fa fa-bitcoin' aria-hidden='true'></i></b></div>
-	<div id='case_cont_sub_price2'>Цена</div>
-	</span>
-	<span>
-	<div id='case_cont_sub_coin_bg'><center><img src='style/coins/coin-0,0010.png' width='126' alt=''/></center></div>
-	</span>
-	<span>
-	<div class='fix_margin_case_cont_2' id='case_cont_sub_order'>от <b>0.0001<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0010<i class='fa fa-bitcoin' aria-hidden='true'></i></b></b></div>
-	<div id='case_cont_sub_price3'><a href='case@id=1.html' class='soundplay' id='button3'>Открыть</a></div>
-	</span>
-	</div>
-	</div>
-	
-	
-	<div id='case_cont_m'>
-	
-	<table id='case_cont_m_table' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_name'>Бесплатный кейс</td><td id='case_cont_m_price'>0.0000<i class='fa fa-bitcoin' aria-hidden='true'></i></td>
-	</tr>
-	<tr>
-		<td id='case_cont_m_vid'>Выдано: <b>378,164<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td id='case_cont_m_price2'>Цена</td>
-	</tr>
-	</table>
-	
-	<div id='case_cont_m_img'><center><img src='style/coins/coin-0,0010.png' width='126' alt=''/></center></div>
-	
-	<table id='case_cont_m_table2' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_in_case'>от <b>0.0001<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0010<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td style='text-align:right;'><a href='case@id=1.html' class='soundplay' id='button3_m'>Открыть</a></td>
-	</tr>
-	</table>
-	
-	</div>
-	
-	
-	
-	<div id='case_cont'>
-	<div id='case_cont_sub'>
-	<span>
-	<div id='case_cont_sub_title'>Кейс за энергию</div>
-	<div id='case_cont_sub_price'><span>0.0000<i class='fa fa-bitcoin' aria-hidden='true'></i></span></div>
-	</span>
-	<br>
-	<span>
-	<div id='case_cont_sub_order'>Выдано: <b>1,006,174<i class='fa fa-bitcoin' aria-hidden='true'></i></b></div>
-	<div id='case_cont_sub_price2'>Цена</div>
-	</span>
-	<span>
-	<div id='case_cont_sub_coin_bg'><center><img src='style/coins/coin-0,0010.png' width='126' alt=''/></center></div>
-	</span>
-	<span>
-	<div class='fix_margin_case_cont_2' id='case_cont_sub_order'>от <b>0.0001<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0010<i class='fa fa-bitcoin' aria-hidden='true'></i></b></b></div>
-	<div id='case_cont_sub_price3'><a href='case@id=2.html' class='soundplay' id='button3'>Открыть</a></div>
-	</span>
-	</div>
-	</div>
-	
-	
-	<div id='case_cont_m'>
-	
-	<table id='case_cont_m_table' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_name'>Кейс за энергию</td><td id='case_cont_m_price'>0.0000<i class='fa fa-bitcoin' aria-hidden='true'></i></td>
-	</tr>
-	<tr>
-		<td id='case_cont_m_vid'>Выдано: <b>1,006,174<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td id='case_cont_m_price2'>Цена</td>
-	</tr>
-	</table>
-	
-	<div id='case_cont_m_img'><center><img src='style/coins/coin-0,0010.png' width='126' alt=''/></center></div>
-	
-	<table id='case_cont_m_table2' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_in_case'>от <b>0.0001<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0010<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td style='text-align:right;'><a href='case@id=2.html' class='soundplay' id='button3_m'>Открыть</a></td>
-	</tr>
-	</table>
-	
-	</div>
-	
-	
-	
-	<div id='case_cont'>
-	<div id='case_cont_sub'>
-	<span>
-	<div id='case_cont_sub_title'>Новичок</div>
-	<div id='case_cont_sub_price'><span>0.0005<i class='fa fa-bitcoin' aria-hidden='true'></i></span></div>
-	</span>
-	<br>
-	<span>
-	<div id='case_cont_sub_order'>Выдано: <b>1,457,510<i class='fa fa-bitcoin' aria-hidden='true'></i></b></div>
-	<div id='case_cont_sub_price2'>Цена</div>
-	</span>
-	<span>
-	<div id='case_cont_sub_coin_bg'><center><img src='style/coins/coin-0,0020.png' width='126' alt=''/></center></div>
-	</span>
-	<span>
-	<div class='fix_margin_case_cont_2' id='case_cont_sub_order'>от <b>0.0002<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0020<i class='fa fa-bitcoin' aria-hidden='true'></i></b></b></div>
-	<div id='case_cont_sub_price3'><a href='case@id=3.html' class='soundplay' id='button3'>Открыть</a></div>
-	</span>
-	</div>
-	</div>
-	
-	
-	<div id='case_cont_m'>
-	
-	<table id='case_cont_m_table' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_name'>Новичок</td><td id='case_cont_m_price'>0.0005<i class='fa fa-bitcoin' aria-hidden='true'></i></td>
-	</tr>
-	<tr>
-		<td id='case_cont_m_vid'>Выдано: <b>1,457,510<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td id='case_cont_m_price2'>Цена</td>
-	</tr>
-	</table>
-	
-	<div id='case_cont_m_img'><center><img src='style/coins/coin-0,0020.png' width='126' alt=''/></center></div>
-	
-	<table id='case_cont_m_table2' width='94%' border='0' cellpadding='0' cellspacing='0'>
-	<tr>
-		<td id='case_cont_m_in_case'>от <b>0.0002<i class='fa fa-bitcoin' aria-hidden='true'></i></b> до <b>0.0020<i class='fa fa-bitcoin' aria-hidden='true'></i></b></td><td style='text-align:right;'><a href='case@id=3.html' class='soundplay' id='button3_m'>Открыть</a></td>
-	</tr>
-	</table>
-	
-	</div>
-	
-	
-</div>
-
-
-<div id='top_user_bg'>
-
-<div id='sub_user_top'>
-
-<div class='top-line__header'>
-<div class='top-line__header-line'></div>
-<div class='top-line__header-text'><font id='top_logouser_text'><i class='fa fa-users' aria-hidden='true'></i> ТОП <font style='color:#fff;'>10</font></font></div>
-<div class='top-line__header-line'></div>
-</div>
-
-<br>
-
-<div id='sub_user_top_block'>
-<a href='http://bitcash24.org/user?user=257552797'><div id='sub_user_top_block_user' class='card_gold'><div class='top-line__position' style='color:#cb8040;'>1</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c824204/v824204150/1befc/bVfHYT0-SmQ.jpg?ava=1' alt='Алёна Бендерова' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Алёна Бендерова</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1090</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>34,090</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=463857864'><div id='sub_user_top_block_user' class='card_silver'><div class='top-line__position' style='color:#A43030;'>2</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c844321/v844321548/fed08/pZi1L8ceNQA.jpg?ava=1' alt='Тишенков Андрей' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Тишенков Андрей</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1003</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>31,810</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=282284774'><div id='sub_user_top_block_user' class='card_bronze'><div class='top-line__position' style='color:#5461C0;'>3</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c849120/v849120092/6dc44/uYO3Hs15m6s.jpg?ava=1' alt='Паха Данченко' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Паха Данченко</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1017</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>31,706</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=164701545'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>4</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c850132/v850132097/169ef/hb-ZnofJz1E.jpg?ava=1' alt='Егор Майский' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Егор Майский</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>834</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>25,930</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=469460284'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>5</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c849320/v849320298/593a9/HA0QLdv4rdM.jpg?ava=1' alt='Никита Самутенков' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Никита Самутенков</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>728</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>22,785</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-
-</div>
-
-
-
-
-
-
-<div id='sub_user_top_block'>
-
-
-	<a href='http://bitcash24.org/user?user=215030889'>
-	<div id='sub_user_top_block_user' class='card_normal'>
-
-	<div class='top-line__position' style='color:#a2a2a2;'>6</div>
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://vk.com/images/camera_100.png?ava=1' alt='Ainura Saqindikova' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Ainura Saqindikova</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>726</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>22,330</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-	<a href='http://bitcash24.org/user?user=246731683'>
-	<div id='sub_user_top_block_user' class='card_normal'>
-
-	<div class='top-line__position' style='color:#a2a2a2;'>7</div>
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c850236/v850236289/7e30f/rWo1BNASeCs.jpg?ava=1' alt='Никита Свиридов' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Никита Свиридов</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>628</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>19,684</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-	<a href='http://bitcash24.org/user?user=486363763'>
-	<div id='sub_user_top_block_user' class='card_normal'>
-
-	<div class='top-line__position' style='color:#a2a2a2;'>8</div>
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c848632/v848632447/b382f/xPWJlT_rjfA.jpg?ava=1' alt='Владислав Острожный' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Владислав Острожный</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>587</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>18,185</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-	<a href='http://bitcash24.org/user?user=29263670'>
-	<div id='sub_user_top_block_user' class='card_normal'>
-
-	<div class='top-line__position' style='color:#a2a2a2;'>9</div>
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c637717/v637717670/1d262/NTzuVd1rIeU.jpg' alt='Edgar Xxx' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Edgar Xxx</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>102</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>16,554</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-	<a href='http://bitcash24.org/user?user=282533442'>
-	<div id='sub_user_top_block_user' class='card_normal'>
-
-	<div class='top-line__position' style='color:#a2a2a2;'>10</div>
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c846321/v846321495/1086f6/HJ_OZYYhiS4.jpg?ava=1' alt='Миша Фомин' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Миша Фомин</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>508</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>16,287</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-
-</div>
-
+<main class="content">
+<div class="inner">
+<div class="cls"></div>
+<h1>Билетные кейсы</h1>
+<ul class="ticket-boxes">
+<li class="ticket-box">
+<span class="ticket-box-inner">
+<span class="new">NEW</span>
+<span class="left">
+<a href="ticket/view/10/index.html" class="tit">Билет удачи</a><br>
+<span class="price">Стоимость: 15р</span>
+<a href="ticket/view/10/index.html" class="btn rounded">Подробнее</a>
+</span>
+<span class="right">
+<span class="jackpot"><span class="small">Джекпот</span>1,500</span>
+</span>
+<span class="cls"></span>
+</span>
+</li>
+<li class="ticket-box">
+<span class="ticket-box-inner">
+<span class="new">NEW</span>
+<span class="left">
+<a href="ticket/view/11/index.html" class="tit">Билет зачетный</a><br>
+<span class="price">Стоимость: 20р</span>
+<a href="ticket/view/11/index.html" class="btn rounded">Подробнее</a>
+</span>
+<span class="right">
+<span class="jackpot"><span class="small">Джекпот</span>3,000</span>
+</span>
+<span class="cls"></span>
+</span>
+</li>
+<li class="ticket-box">
+<span class="ticket-box-inner">
+<span class="new">NEW</span>
+<span class="left">
+<a href="ticket/view/12/index.html" class="tit">Царский билет</a><br>
+<span class="price">Стоимость: 50р</span>
+<a href="ticket/view/12/index.html" class="btn rounded">Подробнее</a>
+</span>
+<span class="right">
+<span class="jackpot"><span class="small">Джекпот</span>10,000</span>
+</span>
+<span class="cls"></span>
+</span>
+</li>
+</ul>
+<div class="cls"></div>
+<h1 class="MarginBottom-30">Кейсы c деньгами</h1><div class="cases">
+<div class="cls"></div>
+<div class="case-grid show" data-case-pricef="" data-case-pricet="" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/22/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+ <div class="light">
+<a href="case/view/22/index.html" class="btn orange rounded eas">Подробнее</a>
 </div>
 </div>
-
-<div id='top_user_bg_m'>
-
-<div id='sub_user_top_m'>
-
-<div class='top-line__header'>
-<div class='top-line__header-line'></div>
-<div class='top-line__header-text'><font id='top_logouser_text'><i class='fa fa-users' aria-hidden='true'></i> ТОП <font style='color:#fff;'>10</font></font></div>
-<div class='top-line__header-line'></div>
+<div class="price">
+<b>стоимость</b> 0 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-10.svg" alt="Призовая обложка">
 </div>
-
-<br>
-
-<div id='sub_user_top_block_m'>
-<a href='http://bitcash24.org/user?user=257552797'><div id='sub_user_top_block_user' class='card_gold'><div class='top-line__position' style='color:#cb8040;'>1</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c824204/v824204150/1befc/bVfHYT0-SmQ.jpg?ava=1' alt='Алёна Бендерова' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Алёна Бендерова</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1090</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>34,090</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=463857864'><div id='sub_user_top_block_user' class='card_silver'><div class='top-line__position' style='color:#A43030;'>2</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c844321/v844321548/fed08/pZi1L8ceNQA.jpg?ava=1' alt='Тишенков Андрей' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Тишенков Андрей</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1003</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>31,810</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=282284774'><div id='sub_user_top_block_user' class='card_bronze'><div class='top-line__position' style='color:#5461C0;'>3</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c849120/v849120092/6dc44/uYO3Hs15m6s.jpg?ava=1' alt='Паха Данченко' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Паха Данченко</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>1017</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>31,706</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=164701545'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>4</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c850132/v850132097/169ef/hb-ZnofJz1E.jpg?ava=1' alt='Егор Майский' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Егор Майский</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>834</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>25,930</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=469460284'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>5</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c849320/v849320298/593a9/HA0QLdv4rdM.jpg?ava=1' alt='Никита Самутенков' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Никита Самутенков</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>728</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>22,785</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=215030889'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>6</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://vk.com/images/camera_100.png?ava=1' alt='Ainura Saqindikova' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Ainura Saqindikova</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>726</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>22,330</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=246731683'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>7</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c850236/v850236289/7e30f/rWo1BNASeCs.jpg?ava=1' alt='Никита Свиридов' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Никита Свиридов</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>628</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>19,684</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=486363763'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>8</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c848632/v848632447/b382f/xPWJlT_rjfA.jpg?ava=1' alt='Владислав Острожный' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Владислав Острожный</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>587</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>18,185</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=29263670'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>9</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c637717/v637717670/1d262/NTzuVd1rIeU.jpg' alt='Edgar Xxx' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Edgar Xxx</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>102</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>16,554</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	<a href='http://bitcash24.org/user?user=282533442'><div id='sub_user_top_block_user' class='card_normal'><div class='top-line__position' style='color:#a2a2a2;'>10</div>
-	
-	<div class='top-line__user-ava'>
-		<div class='circle-ava'><img src='https://pp.userapi.com/c846321/v846321495/1086f6/HJ_OZYYhiS4.jpg?ava=1' alt='Миша Фомин' class='circle-ava__img'></div>
-	</div>
-	<div class='top-line__user-name'>Миша Фомин</div>
-	<div class='top-line__user-stat-block'>
-		<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-briefcase top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>508</div>
-			</div>
-			<div class='top-line__user-stat'>
-			<div class='top-line__user-stat-icon'><i class='fa fa-bitcoin top-line__user-stat-icon-img' aria-hidden='true'></i></div>
-			<div class='top-line__user-stat-value'>16,287</div>
-		</div>
-	</div>
-
-	</div>
-	</a>
-	
-
-</div>
-
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
 </div>
 </div>
-<div id="seo">
-<h1>кейсы с деньгами</h1>
-<p>
-<b>Кейсы с деньгами</b>, открыть <b>денежные кейсы</b>. Увеличенный шанс на <b>открыетие кейсов</b>. Ежедневный бонус - <b>один кейс бесплатно</b>. Один из самых популярных интернет способов поднять деньги для начинающих. Каждый участник может <b>открыть кейс</b> и получить приз. BANGCASH - это <b>сайт по открытию кейсов с деньгами</b>. Выигрыш зависит от удачи и дополнительной опции шанса. Это дает возможность получить большой заработок. Каждый кейс безпроигрышный.
-</p>
-<h2>открытие кейсов</h2>
-<p>
-Имея в на счету только 20 рублей можно быстро заработать 1000, а потом и миллион, ведь стоимость открытого кейса ничтожно мала по сравнению с полученными деньгами. Иными словами вы открываете <b>бесплатные кейсы с деньгами</b>, а выигрыш может достигать неимоверных заработков. Содержимое кейса определяется рандомным способом, участники не сомневаются в честности сайта. Открывай <b>cash кейсы</b> и зарабатывай деньги вместе с нами.<a href="http://bitcash24.org/" title="кейсы с деньгами">кейсы с деньгами</a>
-</p>
-<h2>денежные кейсы</h3>
-<p>
-Также на нашем сайте есть не только кейсы с деньгами. Некоторые содержат предметы(призы). Это позволяет каждому участнику игры на сайте получить то, что он хочет. Открыв его, вы можете стать обладателем нового смартфона Xiaomi Mi5, IPhone 7 или дрона DJI Phantom 4.
-</p>
+<div class="payed">
+<div class="center">выдано 111,451<span class="flaticon-ruble ruble-small"></span>
 </div>
-
-<div id='bottom'>
-<div id='sub_bottom'>
-
-<table width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td width='545' style='vertical-align:top;'>
-<div id='bottom_nav'>
-<a class='jelly_bord soundplay' href='http://bitcash24.org'>Кейсы</a>
-<a class='jelly_bord soundplay' href='faq.html'>Faq</a>
-<a class='jelly_bord soundplay' href='garanties.html'>Гарантии</a>
-<a class='jelly_bord soundplay' href='bonus.html'>Бонусы</a>
-<a class='jelly_bord soundplay' href='support.html'>Тех.поддержка</a>
 </div>
-
-<div id='bottom_nav2'>
-Copyright © 2017 bitcash24.org. Все права защищены.<br>
-Авторизуясь на сайте вы принимаете <a href='terms.html'>пользовательское соглашение.</a>
+<div class="case-footer">
+<a href="case/view/22/index.html">Содержит от <b>1<span class="flaticon-ruble ruble-small"></span></b> до <b>10<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="10" data-case-pricet="100" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/1/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/1/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>30</s> 20 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-50.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 1,740,889<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/1/index.html">Содержит от <b>1<span class="flaticon-ruble ruble-small"></span></b> до <b>50<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="10" data-case-pricet="100" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/11/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/11/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>70</s> 50 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-100.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 1,222,350<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/11/index.html">Содержит от <b>10<span class="flaticon-ruble ruble-small"></span></b> до <b>100<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="100" data-case-pricet="1000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/12/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/12/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>90</s> 70 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-250.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 1,178,550<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/12/index.html">Содержит от <b>20<span class="flaticon-ruble ruble-small"></span></b> до <b>250<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="100" data-case-pricet="1000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/13/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/13/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>250</s> 100 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-500.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 2,367,860<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/13/index.html">Содержит от <b>30<span class="flaticon-ruble ruble-small"></span></b> до <b>500<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="100" data-case-pricet="1000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/14/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/14/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>400</s> 250 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-700.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 971,650<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/14/index.html">Содержит от <b>50<span class="flaticon-ruble ruble-small"></span></b> до <b>700<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="100" data-case-pricet="1000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/15/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/15/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>600</s> 400 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-1000.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 635,710<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/15/index.html">Содержит от <b>70<span class="flaticon-ruble ruble-small"></span></b> до <b>1000<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="1000" data-case-pricet="10000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/16/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/16/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>1000</s> 600 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-1500.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 486,450<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/16/index.html">Содержит от <b>100<span class="flaticon-ruble ruble-small"></span></b> до <b>1500<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="1000" data-case-pricet="10000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/17/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/17/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>2000</s> 1000 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-4000.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 921,400<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/17/index.html">Содержит от <b>150<span class="flaticon-ruble ruble-small"></span></b> до <b>4000<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="1000" data-case-pricet="10000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/18/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/18/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>3000</s> 1500 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-7000.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 1,428,400<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/18/index.html">Содержит от <b>200<span class="flaticon-ruble ruble-small"></span></b> до <b>7000<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="10000" data-case-pricet="999999" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/19/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/19/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>5000</s> 3000 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-15000.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 6,057,000<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/19/index.html">Содержит от <b>500<span class="flaticon-ruble ruble-small"></span></b> до <b>15000<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="10000" data-case-pricet="999999" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/21/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/21/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>14000</s> 7000 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/coin-30000.svg" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 77,499,500<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/21/index.html">Содержит от <b>1000<span class="flaticon-ruble ruble-small"></span></b> до <b>30000<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="100" data-case-pricet="1000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/28/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/28/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>400</s> 230 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/giroskuter.png" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 1,348,740<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/28/index.html">Содержит от <b>50<span class="flaticon-ruble ruble-small"></span></b> до <b>601<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="1000" data-case-pricet="10000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/29/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/29/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>800</s> 400 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/iphone7.png" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 6,191,785<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/29/index.html">Содержит от <b>100<span class="flaticon-ruble ruble-small"></span></b> до <b>2501<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="1000" data-case-pricet="10000" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/30/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/30/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>1990</s> 990 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/ipad.png" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 9,878,222<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/30/index.html">Содержит от <b>300<span class="flaticon-ruble ruble-small"></span></b> до <b>5001<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="case-grid show" data-case-pricef="10000" data-case-pricet="999999" data-case-status="1" data-case-type="1">
+<div class="case">
+<a href="case/view/31/index.html" class="mobile-url">Подробнее</a>
+<div class="hover eas">
+<div class="light">
+<a href="case/view/31/index.html" class="btn orange rounded eas">Подробнее</a>
+</div>
+</div>
+<div class="price">
+<b>стоимость</b><s>6000</s> 3000 <span class="flaticon-ruble"></span></div>
+<div class="img">
+<div class="prize">
+<img src="img/macbook.png" alt="Призовая обложка">
+</div>
+<div class="cover">
+<img src="img/case-cover.png" alt="Призовая обложка">
+</div>
+</div>
+<div class="payed">
+<div class="center">выдано 31,878,000<span class="flaticon-ruble ruble-small"></span>
+</div>
+</div>
+<div class="case-footer">
+<a href="case/view/31/index.html">Содержит от <b>500<span class="flaticon-ruble ruble-small"></span></b> до <b>10001<span class="flaticon-ruble ruble-small"></span></b></a>
+</div>
+</div>
+</div>
+<div class="infobox case-empty">
+<h3><span class="flaticon-cry"></span> Ой ой ой..</h3>По данным параметрам ничего не найдено<br>Хотите предложить новый формат кейса? <a href="support/new/index.html">Напишите нам</a>!
+</div><div class="cls"></div>
+</div></div>
+</main> <div class="top-users">
+<div class="inner">
+<h3>Самые везучие</h3><div class="cls"></div><div class="top-3">
+<div class="t2">
+<div class="img"><a href="account/profile/169902419/index.html"><img src="https://pp.userapi.com/c637626/v637626419/3964d/u6XK6QvgvL8.jpg" alt="Саша Спилберг"><img src="img/top-2-3.png" alt="cover" class="back eas"></a></div>
+<div class="u-cases"><span class="flaticon-case"></span> 20177</div>
+<div class="u-money"><span class="flaticon-money"></span> 13089707<span class="flaticon-ruble small-icon"></span></div>
+</div>
+<div class="t1">
+<div class="img"><a href="account/profile/53636214/index.html"><img src="https://pp.userapi.com/c836322/v836322214/18478/haqphrw_alY.jpg" alt="Иван Рудской"><img src="img/top-1.png" alt="cover" class="back eas"></a></div>
+<div class="u-cases"><span class="flaticon-case"></span> 19234</div>
+<div class="u-money"><span class="flaticon-money"></span> 13256661<span class="flaticon-ruble small-icon"></span></div>
+<div class="back-shadow"></div>
+</div>
+<div class="t3">
+<div class="img"><a href="account/profile/17138174/index.html"><img src="https://pp.userapi.com/c638126/v638126174/3edb0/9cSKCnNgscA.jpg" alt="Саша Шапик"><img src="img/top-2-3.png" alt="cover" class="back eas"></a></div>
+<div class="u-cases"><span class="flaticon-case"></span> 19498</div>
+<div class="u-money"><span class="flaticon-money"></span> 12979125<span class="flaticon-ruble small-icon"></span></div>
+</div>
+<div class="cls"></div>
+</div><div class="top-line"></div><div class="top-10">
+<span class="user">
+<a href="account/profile/410852579/index.html" class="eas"><img src="https://pp.userapi.com/c626816/v626816579/36f7d/Hau2yX0NDvk.jpg" alt="Oleg Samarsky"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 4318</span>
+<span class="s-money"><span class="flaticon-money"></span> 8680264<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/163400097/index.html" class="eas"><img src="https://pp.userapi.com/c840226/v840226188/7a3d6/zcDa7xmZci0.jpg" alt="Serdar Geldymuradov"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 1555</span>
+<span class="s-money"><span class="flaticon-money"></span> 5597740<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/401515192/index.html" class="eas"><img src="https://pp.userapi.com/c841023/v841023834/73efb/h0ewnjzMQfs.jpg" alt="Vitalik Bubleyko"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 3728</span>
+<span class="s-money"><span class="flaticon-money"></span> 4274330<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/264100196/index.html" class="eas"><img src="https://pp.userapi.com/c847122/v847122915/3eb55/-qb4yNspSmg.jpg" alt="Nikita Olinorsky"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 1931</span>
+<span class="s-money"><span class="flaticon-money"></span> 4095927<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/396825097/index.html" class="eas"><img src="https://pp.userapi.com/c824502/v824502576/3bca3/sY_J_a3nDE8.jpg" alt="Andrey Duz"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 2614</span>
+<span class="s-money"><span class="flaticon-money"></span> 3035452<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/387368248/index.html" class="eas"><img src="https://pp.userapi.com/c840335/v840335716/1d177/aj4p39a3yFA.jpg" alt="Alexey Morozov"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 1969</span>
+<span class="s-money"><span class="flaticon-money"></span> 2946703<span class="flaticon-ruble small-icon"></span></span>
+</span>
+<span class="user">
+<a href="account/profile/358278637/index.html" class="eas"><img src="https://pp.userapi.com/c845018/v845018553/46350/dySPJOmpV54.jpg" alt="Alexander Dobrykh"></a>
+<span class="s-cases"><span class="flaticon-case"></span> 1878</span>
+<span class="s-money"><span class="flaticon-money"></span> 2710971<span class="flaticon-ruble small-icon"></span></span>
+</span>
+</div><div class="cls"></div></div>
+</div>
+<div style='width:1200px;margin:auto;margin-bottom:50px;'>
+<h2>Opcash.me – Денежные кейсы! Самая захватывающая игра с выводом года. Описание игры OpCash.</h2>
+<p>Сегодня OpCash является пожалуй лучше игрой года в сегменте денежных кейсов. Здесь вы можете приятно провести время играя и зарабатывая, открывая кейсы с деньгами, для тех, кто хочет открывать кейсы бесплатно, имеют такую возможность всего лишь пополнив баланс на 100 рублей и выше. Также наши игроки могут зарабатывать на нашей иге делясь своим промокодом.</p>
+<p>Выигрывай реальные деньги из кейсов прямо сейчас, ведь именно сегодня все зарабатывают вместе с OpCash! Не упускай свой шанс, начни открывать кейсы с деньгами вместе с нами!</p>
+<p>Рулетка с деньгами - Опкэш представляет из себя игру, где осуществляется открытие кейсов путем нажатия одной кнопки, именно поэтому все так просто! Игры с выводом - это OpCash.me</p>
 <br><br>
-Почта службы поддержки: <b>bangcash2017@gmail.com</b>
+<h3>Честное открытие кейсов! Как работают алгоритмы игры Opcash?</h3>
+<p>После нажатия кнопки «открыть» игра выдает случайное число «число номера монеты», которое выпадает игроку.</p>
+<p>При этом, шанс выпадения всегда равен 50%</p>
+<p>Пользователь сервиса получает гарантированный выигрыш из кейса с деньгами.</p>
+<p>Денежные кейсы содержат в себе от 3 и более лотерейных монет.</p>
+<p>После выигрыша, игрок может вывести деньги любым удобным способом. </p>
+<p>– Откройте бесплатный кейс с деньгами прямо сейчас!</p>
 <br><br>
-<a href='http://bitcash24.org'><img src='style/images/logo.png' width='150' alt=''/></a><br><br>
-</div>
-</td>
-<td>
-<div id='bottom_nav3'>
-<center>
-Мы принимаем всё!<br><a href='http://www.free-kassa.ru/'><img src='http://www.free-kassa.ru/img/fk_btn/16.png'></a>
-</center>
-</div>
-</td>
-<td width='350' style='text-align:right; vertical-align:top;'>
-<div id='bottom_nav4'>
-<!--<div id='vk_groups'></div>-->
-<script type='text/javascript'>
-VK.Widgets.Group('vk_groups', {mode: 0, width: '350', height: '290'}, 146744355);
-</script>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
-</div>
-
-<div id='bottom_m'>
-<div id='sub_bottom'>
-
-
-<div id='bottom_nav'>
-<a class='jelly_bord soundplay' href='http://bitcash24.org'>Кейсы</a>
-<a class='jelly_bord soundplay' href='faq.html'>Faq</a>
-<a class='jelly_bord soundplay' href='garanties.html'>Гарантии</a>
-<a class='jelly_bord soundplay' href='bonus.html'>Бонусы</a>
-<a class='jelly_bord soundplay' href='support.html'>Тех.поддержка</a>
-</div>
-
-<div id='bottom_nav2'>
-Copyright © 2017 bitcash24.org. Все права защищены.<br>
-Авторизуясь на сайте вы принимаете <a href='terms.html'>пользовательское соглашение.</a>
-</div>
-<div id='bottom_nav4'>
-<!--<div id='vk_groups2'></div>-->
-<script type='text/javascript'>
-VK.Widgets.Group('vk_groups2', {mode: 0, width: '0', height: '290'}, 146744355);
-</script>
-</div>
-
-<div id='bottom_nav2'>
-Почта службы поддержки: <b>bangcash2017@gmail.com</b>
-</div>
-
+<h3>Бесплатные кейсы или рефферальная программа от OpCash.me!
+<br> Пригласите друга – получите деньги!</h3>
 <br>
-
-<table id='table_mob_down' width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td><a href='http://bitcash24.org'><img src='style/images/logo.png' width='150' alt=''/></a></td>
-<td style='text-align:right;'><a href='http://www.free-kassa.ru/'><img src='http://www.free-kassa.ru/img/fk_btn/16.png'></a></td>
-</tr>
-</table>
-
-<div id='table_mob_down2'>
-<a href='http://bitcash24.org'><img src='style/images/logo.png' width='150' alt=''/></a><br>
-<a href='http://www.free-kassa.ru/'><img src='http://www.free-kassa.ru/img/fk_btn/16.png'></a>
+<p>Рефферальная программа от Опкэш дает вам возможность получить 5% от каждого пополнения баланса другом!</p>
+<p>Чтобы начать зарабатывать на привлечении реффералов вам нужно перейти в профиль и скопировать ваш рефферальный код.</p>
+<p>Далее ваш друг может ввести данный код, войдя в систему, после чего он получит 10 рублей от нашего сервиса. </p>
+<p>Пользователь, который ввел код может пополнить баланс и сыграть на «Билетных кейсах» или «Классических» </p>
+<p>Рефферальная система уникальна в своём роде в данном сигменте рынка игр, ведь вы можете зарабатывать привлекая реффералов. </p>
 </div>
-
-<br><br>
-
+<footer class="footer">
+<div class="inner">
+<div class="l">
+<ul>
+<li><a href="index.html" class="eas ">Кейсы</a></li>
+<li><a href="faq/index.html" class="eas ">FAQ</a></li>
+<li><a href="guarantees/index.html" class="eas ">Гарантии</a></li>
+<li><a href="reviews/index.html" class="eas ">Отзывы</a></li>
+<li><a href="support/new/index.html" class="eas ">Техническая поддержка</a></li>
+</ul>
+<div class="copy">
+Copyright © 2016-2018 opcash.me. Все права защищены.<br>Авторизуясь на сайте вы принимаете <a href="tos/index.html">пользовательское соглашение</a> | <a href="sitemap.xml" target="_blank">sitemap.xml</a>
 </div>
 </div>
-
+<div class="r">
+<h5>Принимаем</h5>
+<div class="cls"></div>
+<div class="img"><a href="https://www.free-kassa.com/"><img src="https://www.free-kassa.ru/img/fk_btn/22.png"></a></div>
+<div class="img"><img src="img/payment-methods.png@v=2" alt="Принимаем"></div>
+<div class="cls"></div>
 </div>
+<div class="cls"></div>
 </div>
-<div id="tv_overlay"></div>
-<div id="tv_overlay3"></div>
-
-
-<div id='popup_payment'>
-<div id='popup_payment_window'>
-
-<div id='sub_popup_padding'>
-<font id='popup_payment_h'>Пополнение баланса</font>
-<div id='popup_payment_alert'>
-Баланс начисляется моментально, но иногда процесс может занять 1-2 минуты.
-</div>
-
-<br>
-<font id='popup_payment_h2'>Сумма</font>
-
-
-
-<form method='get' action='http://bitcash24.org/payment.php'>
-<input type='hidden' name='user' value=''>
-
-<table width='100%' border='0' cellpadding='0' cellspacing='0'>
-<tr>
-<td width='95'><input type='text' name='amount' class='inp' maxlength='5' value='100' onchange='if (this.value < 10) this.value=10; if (this.value > 15000) this.value=15000'></td>
-<td id='popup_payment_info'>Максимальная сумма за раз: 15000р<br>Минимальная сумма: 10р</td>
-</tr>
-</table>
-
-<br>
-<font id='popup_payment_h2'>Способ оплаты</font>
-<center>
-<br>
-
-<input id='p_radio_card' class='p_radio' name='payment_type' type='radio' value='card' checked><label for='p_radio_card'>
-<img src='style/images/payments/card.png' width='120' alt='Visa или Mastercard'/></label>
-
-<input id='p_radio_qiwi' class='p_radio' name='payment_type' type='radio' value='qiwi'><label for='p_radio_qiwi'>
-<img src='style/images/payments/qiwi.png' width='120' alt='Qiwi'/></label>
-
-<input id='p_radio_yandex' class='p_radio' name='payment_type' type='radio' value='yandex'><label for='p_radio_yandex'>
-<img src='style/images/payments/yandex.png' width='120' alt='Yandex'/></label>
-
-<input id='p_radio_mts' class='p_radio' name='payment_type' type='radio' value='mts'><label for='p_radio_mts'>
-<img src='style/images/payments/mts.png' width='120' alt='MTS'/></label>
-
-<input id='p_radio_megafon' class='p_radio' name='payment_type' type='radio' value='megafon'><label for='p_radio_megafon'>
-<img src='style/images/payments/megafon.png' width='120' alt='Megafon'/></label>
-
-<input id='p_radio_beeline' class='p_radio' name='payment_type' type='radio' value='beeline'><label for='p_radio_beeline'>
-<img src='style/images/payments/beeline.png' width='120' alt='Beeline'/></label>
-
-<input id='p_radio_tele2' class='p_radio' name='payment_type' type='radio' value='tele2'><label for='p_radio_tele2'>
-<img src='style/images/payments/tele2.png' width='120' alt='Теле2'/></label>
-
-<input id='p_radio_freekassa_skinpay' class='p_radio' name='payment_type' type='radio' value='freekassa_skinpay'><label for='p_radio_freekassa_skinpay'>
-<img src='style/images/payments/skinpay.png' width='120' alt='SkinPay'/></label>
-
-<input id='p_radio_freekassa' class='p_radio' name='payment_type' type='radio' value='freekassa'><label for='p_radio_freekassa'>
-<img src='style/images/payments/freekassa.png' width='120' alt='Free-Kassa'/></label>
-
-<br>
-<input id='popup_payment_button' type='submit' value='Пополнить' />
-</center>
-
+</footer>
+</div><div id="deposit" class="popup">
+<div class="popup-container">
+<div class="eas close" onclick="popupClose('#deposit');"><span class="flaticon-close"></span></div>
+<h3>Пополнить баланс</h3>
+<div class="info"><b>Баланс начисляется моментально, но иногда процесс может занять 1-2 минуты</b></div><h4>Сумма</h4>
+<div class="cls"></div>
+<div class="amount-l">
+<form name="form-deposit" id="form-deposit" method="get" action="https://opcash.me/payment/deposit/">
+<input type="text" name="sum" class="inp" maxlength="5" value="100" onkeypress="return event.charCode >= 48 & amp; & amp; event.charCode <= 57" onchange="if (this.value < 10) this.value = 10; if (this.value > 15000) this.value = 15000">
 </form>
-
-
-
-<div class='close close_payment'><i class='fa fa-times' aria-hidden='true'></i></div>
 </div>
-
+<div class="amount-r">
+Максимальная сумма за раз: <b>15000р</b><br>Минимальная сумма: <b>10р</b>
 </div>
-
-<div id='tv_overlay2'></div>
+<div class="cls"></div><div class="foo"><input type="button" class="btn orange rounded" value="Пополнить баланс" onclick="depositNow();"></div>
 </div>
-
+<div class="popup-overlay" onclick="popupClose('#deposit');"></div>
+</div><div id="withdrawal" class="popup">
+<div class="popup-container">
+<form name="form-withdrawal" action="https://opcash.me/payment/withdraw/" id="form-withdrawal" method="post">
+<div class="loader"><img src="img/loader.svg" alt=""></div>
+<div class="eas close" onclick="popupClose('#withdrawal');"><span class="flaticon-close"></span></div>
+<h3>Вывод средств</h3>
+<div class="info"><b>Вывод средств осуществляется в течении 24 часов.</b><br>Однако, в среднем мы обрабатываем платежи значительно быстро и 3-5 раза в день.<br>Минимальная сумма к выводу <b>100р</b></div><div class="cls"></div>
+<div class="amount-l">
+<h4>Сумма</h4>
+<input type="text" name="sum" class="inp" maxlength="5" value="100" onkeypress="return event.charCode >= 48 & amp; & amp; event.charCode <= 57" onchange="if (this.value < 100) this.value = 100">
+<input type="hidden" name="curr" id="withdrawal-type-field" value="yandex">
+</div>
+<div class="amount-r amount-r2">
+<h4>Номер кошелька</h4>
+<input type="text" name="purse" class="inp PurseHolder" maxlength="16" placeholder="Пример: 41003592336109">
+</div>
+<div class="cls"></div><h4>Куда хотите вывести?</h4>
+<div class="cls"></div>
+<span class="payment-method eas pm-45 active" id="45" onclick="changePaymentMethod('45', 'Пример: 41003592336109');">
+<img src="img/payment-yandex.svg" alt="Яндекс Деньги">
+<span class="flaticon-check"></span>
+</span>
+<span class="payment-method eas pm-63" id="63" onclick="changePaymentMethod('63', 'Пример: 7900123456');">
+<img src="img/payment-qiwi.svg" alt="QIWI">
+<span class="flaticon-check"></span>
+</span>
+<span class="payment-method eas pm-94" id="94" onclick="changePaymentMethod('94', 'Пример: 123456789123xxxx 01/01');">
+<img src="img/visamastercard.jpg" alt="VISA/Mastercard RUB">
+<span class="flaticon-check"></span>
+</span>
 <script>
+                        $("document").ready(function(){
+                window.foopm = ''; $("#form-withdrawal .payment-method").each(function(index, value) {
+                if (window.foopm.length == 0) {
+                window.foopm = $(this).prop('id').replace('pm-', '');
+                        $(".pm-" + window.foopm).addClass('active');
+                        $(".pm-" + window.foopm).click();
+                }
+                });
+                });</script><div class="cls"></div><div class="foo foo-2"><input type="button" class="btn blue rounded" value="Вывести средства" onclick="withdrawalNow();"></div>
+</form>
+</div>
+<div class="popup-overlay" onclick="popupClose('#withdrawal');"></div>
+</div> <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=jZFSYNZt71ZP0Bb5*89yjMlXnk0uIGANlOX*KuK4KRBUInmsQnOtUoizKjvTL5J1wHeyLNqrGRVD30UO8F0yQqP3kmnF8Gk9GE9yE*JNNxSpu5qpysMqG074zBWflttkHGLsVqQhKhBz7wfbRbfk4X/HVeoUEUnIifdoGup8DjM-&pixel_id=1000024092';</script><div class="ie-update"><h3>Ваш браузер устарел :(</h3>Пожалуйста, <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" rel="nofollow" target="_blank">скачайте новую версию</a> Internet Explorer<br><small>Однако мы рекомендуем Google Chrome, Firefox и Safari. </small></div>
+<!--[if IE]></div><![endif]--><a class="vk-button" href="https://vk.com/opcash_com" rel="nofollow" target="_blank"><span class="flaticon-soc-vk"></span> Мы Вконтакте</a>
 
-$(document).ready(function(){
-    var html_json;
-	$.ajax({
-		url: "/info-main.php",
-		cache: false,
-		success: function(html){
-			html_json = JSON.parse(html);
-			document.getElementById('seo').style.display = html_json.infoblock;
-		}
-	});
-});
+<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function() {
+					try {
+						w.yaCounter48844925 = new Ya.Metrika({
+							id:48844925,
+							clickmap:true,
+							trackLinks:true,
+							accurateTrackBounce:true,
+							webvisor:true
+						});
+					} catch(e) { }
+				});
 
-</script>
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = "https://mc.yandex.ru/metrika/watch.js";
 
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+		</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48844925" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<script>!function(e,t,d,s,a,n,c){e[a]={},e[a].date=(new Date).getTime(),n=t.createElement(d),c=t.getElementsByTagName(d)[0],n.type="text/javascript",n.async=!0,n.src=s,c.parentNode.insertBefore(n,c)}(window,document,"script","https://opcashcomru.push.world/embed.js","pw"),pw.websiteId="daa66ea10c8a673aa925fb331ce406eeedd27b80b0c00fc1ff61f144ca80df8f";</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119175382-1"></script>
+<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-119175382-1');
+		</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123274429-1"></script>
+<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-123274429-1');
+		</script>
 </body>
 </html>

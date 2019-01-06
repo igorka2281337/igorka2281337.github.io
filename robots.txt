@@ -1,27 +1,8 @@
-User-agent: * 
-Host: bitcash24.org
-Disallow: /ajax/
-Disallow: /blocks/
-Disallow: /sounds/
-Disallow: /callback.php
-Disallow: /callback
-Disallow: /exit.php
-Disallow: /exit
-Disallow: /payment.php
-Disallow: /payment
-Disallow: /result.php
-Disallow: /result
-Disallow: /result_trio.php
-Disallow: /result_trio
-Disallow: /control.php
-Disallow: /control
-Disallow: /info-main.php
-Disallow: /info-main
-Disallow: /user.php
-Disallow: /user
-Disallow: /trio.php
-Disallow: /trio
-Disallow: /index.php?*ref=
-Disallow: /index?*ref=
-Disallow: /?*ref=
-Sitemap: http://bitcash24.org/sitemap.xml
+User-agent: *
+Disallow: /support*
+
+User-agent: Yandex
+Disallow: /support*
+
+Host: opcash.me/
+Sitemap: https://opcash.me/sitemap.xml
